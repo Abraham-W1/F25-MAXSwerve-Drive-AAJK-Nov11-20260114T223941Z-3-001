@@ -14,6 +14,8 @@ public class AlignToTagCommand extends Command {
     this.drive = drive;
     this.limelightName = limelightName;
     addRequirements(drive);
+        System.out.println("Empty File");
+        System.out.println("More emptiness");
   }
 
   @Override
