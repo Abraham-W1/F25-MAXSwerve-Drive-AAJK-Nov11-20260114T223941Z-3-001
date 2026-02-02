@@ -96,7 +96,7 @@ public class RobotContainer {
     // R1 button - X-stance (wheels in X formation to resist pushing)
     new JoystickButton(m_driverController, Button.kRightBumper.value)
         .whileTrue(new RunCommand(
-            () -> m_robotDrive.setX(),
+            () -> m_robotDrive.setX(), 
             m_robotDrive));
 
     // L1 button - Control arm position
